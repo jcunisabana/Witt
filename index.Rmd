@@ -5,15 +5,15 @@ date: ''
 always_allow_html: yes
 output:
  
+  pdf_document:
+    latex_engine: xelatex
+    toc: no
+    keep_tex: true
   html_document:
     theme: united
     toc: yes
     toc_depth: 4
     toc_float: yes
-  pdf_document:
-    latex_engine: xelatex
-    toc: no
-    keep_tex: true
 lang: es-co
 header-includes:
 - \usepackage{fontspec}
